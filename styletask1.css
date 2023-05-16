@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.btn-color{
+    background-color: #A35CE6;
+}
+.bg-color{
+    background-color: #A35CE6;
+}
+.ic-color{
+    color: #A35CE6;
+}
+
+.our-team .team-members .team-member .img-content img {
+    transition: all 0.3s ease-in-out;
+}
+
+.our-team .team-members .team-member .img-content .member-accounts {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f25454;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.our-team .team-members .team-member .img-content .member-accounts ul li i {
+    font-size: 18px;
+
+    padding: 0px 15px;
+}
+
+.our-team .team-members .team-member:hover .member-accounts {
+    opacity: 0.8;
+}
+
+.our-team .team-members .team-member:hover .img-content img {
+    transform: scale(1.1) !important;
+}
+
+.our-team .team-members .team-member h3 {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.our-team .team-members .team-member:hover h3 {
+    color: #f25454;
+
+}
+
+.our-team .team-members .team-member span {
+    color: #666;
+    font-size: 14px;
+}
+
+.our-team .question {
+    padding: 100px 0 !important;
+}
+
+.our-team .question h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #282828;
+}
+
+.our-team .question button {
+    padding: 10px 20px;
+}
+.bk{
+    background-color:#e0dbe5;
+}
